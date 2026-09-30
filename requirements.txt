@@ -8,3 +8,6 @@ python-dotenv>=1.0
 requests>=2.31
 # Testes automatizados (opcional)
 pytest>=8.0
+# API web da etapa 05 (uvicorn app:app --app-dir 05_web --reload)
+fastapi>=0.110
+uvicorn[standard]>=0.29
